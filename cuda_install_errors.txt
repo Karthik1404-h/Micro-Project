@@ -1,0 +1,88 @@
+ERROR: Exception:
+Traceback (most recent call last):
+  File "D:\collage\sem6\Microprocessor\project\venv\Lib\site-packages\pip\_vendor\urllib3\response.py", line 438, in _error_catcher
+    yield
+  File "D:\collage\sem6\Microprocessor\project\venv\Lib\site-packages\pip\_vendor\urllib3\response.py", line 561, in read
+    data = self._fp_read(amt) if not fp_closed else b""
+           ~~~~~~~~~~~~~^^^^^
+  File "D:\collage\sem6\Microprocessor\project\venv\Lib\site-packages\pip\_vendor\urllib3\response.py", line 527, in _fp_read
+    return self._fp.read(amt) if amt is not None else self._fp.read()
+           ~~~~~~~~~~~~~^^^^^
+  File "D:\collage\sem6\Microprocessor\project\venv\Lib\site-packages\pip\_vendor\cachecontrol\filewrapper.py", line 100, in read
+    data: bytes = self.__fp.read(amt)
+                  ~~~~~~~~~~~~~~^^^^^
+  File "C:\anaconda3\Lib\http\client.py", line 479, in read
+    s = self.fp.read(amt)
+  File "C:\anaconda3\Lib\socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\anaconda3\Lib\ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\anaconda3\Lib\ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\collage\sem6\Microprocessor\project\venv\Lib\site-packages\pip\_internal\cli\base_command.py", line 107, in _run_wrapper
+    status = _inner_run()
+  File "D:\collage\sem6\Microprocessor\project\venv\Lib\site-packages\pip\_internal\cli\base_command.py", line 98, in _inner_run
+    return self.run(options, args)
+           ~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\collage\sem6\Microprocessor\project\venv\Lib\site-packages\pip\_internal\cli\req_command.py", line 96, in wrapper
+    return func(self, options, args)
+  File "D:\collage\sem6\Microprocessor\project\venv\Lib\site-packages\pip\_internal\commands\install.py", line 419, in run
+    preparer.prepare_linked_requirements_more(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        requirement_set.requirements.values()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\collage\sem6\Microprocessor\project\venv\Lib\site-packages\pip\_internal\operations\prepare.py", line 569, in prepare_linked_requirements_more
+    self._complete_partial_requirements(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        partially_downloaded_reqs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        parallel_builds=parallel_builds,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\collage\sem6\Microprocessor\project\venv\Lib\site-packages\pip\_internal\operations\prepare.py", line 478, in _complete_partial_requirements
+    for link, (filepath, _) in batch_download:
+                               ^^^^^^^^^^^^^^
+  File "D:\collage\sem6\Microprocessor\project\venv\Lib\site-packages\pip\_internal\network\download.py", line 183, in batch
+    filepath, content_type = self(link, location)
+                             ~~~~^^^^^^^^^^^^^^^^
+  File "D:\collage\sem6\Microprocessor\project\venv\Lib\site-packages\pip\_internal\network\download.py", line 194, in __call__
+    self._process_response(download, resp)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "D:\collage\sem6\Microprocessor\project\venv\Lib\site-packages\pip\_internal\network\download.py", line 211, in _process_response
+    for chunk in chunks:
+                 ^^^^^^
+  File "D:\collage\sem6\Microprocessor\project\venv\Lib\site-packages\pip\_internal\cli\progress_bars.py", line 69, in _rich_download_progress_bar
+    for chunk in iterable:
+                 ^^^^^^^^
+  File "D:\collage\sem6\Microprocessor\project\venv\Lib\site-packages\pip\_internal\network\utils.py", line 65, in response_chunks
+    for chunk in response.raw.stream(
+                 ~~~~~~~~~~~~~~~~~~~^
+        chunk_size,
+        ^^^^^^^^^^^
+    ...<22 lines>...
+        decode_content=False,
+        ^^^^^^^^^^^^^^^^^^^^^
+    ):
+    ^
+  File "D:\collage\sem6\Microprocessor\project\venv\Lib\site-packages\pip\_vendor\urllib3\response.py", line 622, in stream
+    data = self.read(amt=amt, decode_content=decode_content)
+  File "D:\collage\sem6\Microprocessor\project\venv\Lib\site-packages\pip\_vendor\urllib3\response.py", line 560, in read
+    with self._error_catcher():
+         ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\anaconda3\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "D:\collage\sem6\Microprocessor\project\venv\Lib\site-packages\pip\_vendor\urllib3\response.py", line 455, in _error_catcher
+    raise ProtocolError("Connection broken: %r" % e, e)
+pip._vendor.urllib3.exceptions.ProtocolError: ("Connection broken: ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)", ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))

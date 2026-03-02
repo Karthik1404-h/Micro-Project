@@ -1,0 +1,421 @@
+
+──────────────────────────────────────────────────────────────
+  Input       : input_video.mp4
+  Clips saved : event_clips/
+  Video       : 640×360  24.0fps  01:10:23
+  Pre/Post    : 4s / 5s    Max clip: 40s    Gap: 20s
+──────────────────────────────────────────────────────────────
+
+[INFO] Loading YOLOv8 model …
+[INFO] Model ready on cuda
+
+  [  0.5%]  500/101,361  243fps  ETA 00:06:54  events=0  clips_written=0
+  [  1.0%]  1,000/101,361  254fps  ETA 00:06:34  events=0  clips_written=0
+  [  1.5%]  1,500/101,361  256fps  ETA 00:06:30  events=0  clips_written=0
+  [  2.0%]  2,000/101,361  263fps  ETA 00:06:18  events=0  clips_written=0
+
+  ★ EVENT #1 at 00:01:26  ←  bus #1, truck #2
+    → event ended at 00:01:32
+    → clip saved:  event_001__00h01m26s__bus_truck.mp4  (0.5 MB)
+  [  2.5%]  2,500/101,361  233fps  ETA 00:07:05  events=1  clips_written=1
+  [  3.0%]  3,000/101,361  239fps  ETA 00:06:51  events=1  clips_written=1
+  [  3.5%]  3,500/101,361  246fps  ETA 00:06:37  events=1  clips_written=1
+  [  3.9%]  4,000/101,361  251fps  ETA 00:06:27  events=1  clips_written=1
+  [  4.4%]  4,500/101,361  254fps  ETA 00:06:21  events=1  clips_written=1
+  [  4.9%]  5,000/101,361  257fps  ETA 00:06:15  events=1  clips_written=1
+  [  5.4%]  5,500/101,361  258fps  ETA 00:06:11  events=1  clips_written=1
+  [  5.9%]  6,000/101,361  259fps  ETA 00:06:07  events=1  clips_written=1
+  [  6.4%]  6,500/101,361  261fps  ETA 00:06:03  events=1  clips_written=1
+
+  ★ EVENT #2 at 00:04:42  ←  car #5, car #6
+    → event ended at 00:04:47
+    → clip saved:  event_002__00h04m42s__car.mp4  (0.6 MB)
+  [  6.9%]  7,000/101,361  254fps  ETA 00:06:10  events=2  clips_written=2
+  [  7.4%]  7,500/101,361  256fps  ETA 00:06:06  events=2  clips_written=2
+  [  7.9%]  8,000/101,361  258fps  ETA 00:06:01  events=2  clips_written=2
+  [  8.4%]  8,500/101,361  260fps  ETA 00:05:57  events=2  clips_written=2
+  [  8.9%]  9,000/101,361  261fps  ETA 00:05:53  events=2  clips_written=2
+  [  9.4%]  9,500/101,361  262fps  ETA 00:05:50  events=2  clips_written=2
+  [  9.9%]  10,000/101,361  263fps  ETA 00:05:47  events=2  clips_written=2
+  [ 10.4%]  10,500/101,361  264fps  ETA 00:05:44  events=2  clips_written=2
+  [ 10.9%]  11,000/101,361  264fps  ETA 00:05:41  events=2  clips_written=2
+  [ 11.3%]  11,500/101,361  265fps  ETA 00:05:38  events=2  clips_written=2
+  [ 11.8%]  12,000/101,361  265fps  ETA 00:05:36  events=2  clips_written=2
+  [ 12.3%]  12,500/101,361  266fps  ETA 00:05:34  events=2  clips_written=2
+
+  ★ EVENT #3 at 00:08:42  ←  person #9, person #10
+    → event ended at 00:08:47
+    → clip saved:  event_003__00h08m42s__person.mp4  (0.5 MB)
+  [ 12.8%]  13,000/101,361  264fps  ETA 00:05:34  events=3  clips_written=3
+  [ 13.3%]  13,500/101,361  265fps  ETA 00:05:31  events=3  clips_written=3
+  [ 13.8%]  14,000/101,361  266fps  ETA 00:05:28  events=3  clips_written=3
+  [ 14.3%]  14,500/101,361  267fps  ETA 00:05:25  events=3  clips_written=3
+  [ 14.8%]  15,000/101,361  267fps  ETA 00:05:22  events=3  clips_written=3
+  [ 15.3%]  15,500/101,361  268fps  ETA 00:05:20  events=3  clips_written=3
+  [ 15.8%]  16,000/101,361  269fps  ETA 00:05:17  events=3  clips_written=3
+  [ 16.3%]  16,500/101,361  270fps  ETA 00:05:14  events=3  clips_written=3
+  [ 16.8%]  17,000/101,361  270fps  ETA 00:05:12  events=3  clips_written=3
+  [ 17.3%]  17,500/101,361  271fps  ETA 00:05:09  events=3  clips_written=3
+  [ 17.8%]  18,000/101,361  271fps  ETA 00:05:07  events=3  clips_written=3
+  [ 18.3%]  18,500/101,361  272fps  ETA 00:05:04  events=3  clips_written=3
+
+  ★ EVENT #4 at 00:12:56  ←  bus #11, car #12, person #13, person #14
+    → event ended at 00:13:02
+    → clip saved:  event_004__00h12m56s__bus_car_person.mp4  (0.6 MB)
+  [ 18.7%]  19,000/101,361  269fps  ETA 00:05:05  events=4  clips_written=4
+  [ 19.2%]  19,500/101,361  269fps  ETA 00:05:04  events=4  clips_written=4
+  [ 19.7%]  20,000/101,361  269fps  ETA 00:05:01  events=4  clips_written=4
+  [ 20.2%]  20,500/101,361  270fps  ETA 00:04:59  events=4  clips_written=4
+  [ 20.7%]  21,000/101,361  270fps  ETA 00:04:57  events=4  clips_written=4
+  [ 21.2%]  21,500/101,361  270fps  ETA 00:04:55  events=4  clips_written=4
+  [ 21.7%]  22,000/101,361  270fps  ETA 00:04:53  events=4  clips_written=4
+  [ 22.2%]  22,500/101,361  270fps  ETA 00:04:51  events=4  clips_written=4
+  [ 22.7%]  23,000/101,361  271fps  ETA 00:04:49  events=4  clips_written=4
+  [ 23.2%]  23,500/101,361  271fps  ETA 00:04:47  events=4  clips_written=4
+
+  ★ EVENT #5 at 00:16:30  ←  car #21
+    → event ended at 00:16:35
+    → clip saved:  event_005__00h16m30s__car.mp4  (0.5 MB)
+  [ 23.7%]  24,000/101,361  269fps  ETA 00:04:47  events=5  clips_written=5
+  [ 24.2%]  24,500/101,361  269fps  ETA 00:04:45  events=5  clips_written=5
+  [ 24.7%]  25,000/101,361  269fps  ETA 00:04:43  events=5  clips_written=5
+
+  ★ EVENT #6 at 00:17:36  ←  bus #27, person #28, person #29
+  [ 25.2%]  25,500/101,361  267fps  ETA 00:04:43  events=6  clips_written=6
+    → event ended at 00:17:43
+    → clip saved:  event_006__00h17m36s__bus_person.mp4  (0.6 MB)
+  [ 25.7%]  26,000/101,361  267fps  ETA 00:04:42  events=6  clips_written=6
+  [ 26.1%]  26,500/101,361  267fps  ETA 00:04:40  events=6  clips_written=6
+  [ 26.6%]  27,000/101,361  267fps  ETA 00:04:38  events=6  clips_written=6
+  [ 27.1%]  27,500/101,361  268fps  ETA 00:04:36  events=6  clips_written=6
+
+  ★ EVENT #7 at 00:19:10  ←  person #34, person #35, person #36
+    → event ended at 00:19:15
+    → clip saved:  event_007__00h19m10s__person.mp4  (0.5 MB)
+  [ 27.6%]  28,000/101,361  266fps  ETA 00:04:35  events=7  clips_written=7
+  [ 28.1%]  28,500/101,361  266fps  ETA 00:04:33  events=7  clips_written=7
+
+  ★ EVENT #8 at 00:19:54  ←  person #44, person #45
+    → event ended at 00:19:59
+    → clip saved:  event_008__00h19m54s__person.mp4  (0.4 MB)
+  [ 28.6%]  29,000/101,361  265fps  ETA 00:04:33  events=8  clips_written=8
+  [ 29.1%]  29,500/101,361  265fps  ETA 00:04:31  events=8  clips_written=8
+  [ 29.6%]  30,000/101,361  265fps  ETA 00:04:28  events=8  clips_written=8
+
+  ★ EVENT #9 at 00:21:07  ←  person #52
+  [ 30.1%]  30,500/101,361  264fps  ETA 00:04:28  events=9  clips_written=9
+    → event ended at 00:21:12
+    → clip saved:  event_009__00h21m07s__person.mp4  (0.6 MB)
+  [ 30.6%]  31,000/101,361  264fps  ETA 00:04:26  events=9  clips_written=9
+  [ 31.1%]  31,500/101,361  264fps  ETA 00:04:24  events=9  clips_written=9
+
+  ★ EVENT #10 at 00:21:56  ←  car #56
+    → event ended at 00:22:01
+    → clip saved:  event_010__00h21m56s__car.mp4  (0.4 MB)
+  [ 31.6%]  32,000/101,361  264fps  ETA 00:04:22  events=10  clips_written=10
+
+  ★ EVENT #11 at 00:22:28  ←  car #58, car #59, person #60, truck #62
+    → event ended at 00:22:33
+    → clip saved:  event_011__00h22m28s__car_person_truck.mp4  (0.4 MB)
+  [ 32.1%]  32,500/101,361  263fps  ETA 00:04:21  events=11  clips_written=11
+  [ 32.6%]  33,000/101,361  263fps  ETA 00:04:19  events=11  clips_written=11
+  [ 33.1%]  33,500/101,361  264fps  ETA 00:04:17  events=11  clips_written=11
+
+  ★ EVENT #12 at 00:23:36  ←  car #65
+  [ 33.5%]  34,000/101,361  263fps  ETA 00:04:15  events=12  clips_written=12
+    → event ended at 00:23:41
+    → clip saved:  event_012__00h23m36s__car.mp4  (0.5 MB)
+  [ 34.0%]  34,500/101,361  263fps  ETA 00:04:14  events=12  clips_written=12
+  [ 34.5%]  35,000/101,361  263fps  ETA 00:04:12  events=12  clips_written=12
+  [ 35.0%]  35,500/101,361  263fps  ETA 00:04:09  events=12  clips_written=12
+  [ 35.5%]  36,000/101,361  264fps  ETA 00:04:07  events=12  clips_written=12
+  [ 36.0%]  36,500/101,361  264fps  ETA 00:04:05  events=12  clips_written=12
+  [ 36.5%]  37,000/101,361  263fps  ETA 00:04:04  events=12  clips_written=12
+  [ 37.0%]  37,500/101,361  264fps  ETA 00:04:02  events=12  clips_written=12
+  [ 37.5%]  38,000/101,361  264fps  ETA 00:04:00  events=12  clips_written=12
+  [ 38.0%]  38,500/101,361  264fps  ETA 00:03:58  events=12  clips_written=12
+  [ 38.5%]  39,000/101,361  264fps  ETA 00:03:56  events=12  clips_written=12
+  [ 39.0%]  39,500/101,361  264fps  ETA 00:03:54  events=12  clips_written=12
+  [ 39.5%]  40,000/101,361  264fps  ETA 00:03:52  events=12  clips_written=12
+  [ 40.0%]  40,500/101,361  265fps  ETA 00:03:50  events=12  clips_written=12
+  [ 40.4%]  41,000/101,361  265fps  ETA 00:03:48  events=12  clips_written=12
+  [ 40.9%]  41,500/101,361  265fps  ETA 00:03:46  events=12  clips_written=12
+  [ 41.4%]  42,000/101,361  265fps  ETA 00:03:44  events=12  clips_written=12
+  [ 41.9%]  42,500/101,361  265fps  ETA 00:03:41  events=12  clips_written=12
+  [ 42.4%]  43,000/101,361  266fps  ETA 00:03:39  events=12  clips_written=12
+
+  ★ EVENT #13 at 00:30:02  ←  person #81, horse #82, person #83
+    → event ended at 00:30:07
+    → clip saved:  event_013__00h30m02s__person_horse.mp4  (0.5 MB)
+  [ 42.9%]  43,500/101,361  265fps  ETA 00:03:38  events=13  clips_written=13
+  [ 43.4%]  44,000/101,361  265fps  ETA 00:03:36  events=13  clips_written=13
+  [ 43.9%]  44,500/101,361  266fps  ETA 00:03:34  events=13  clips_written=13
+  [ 44.4%]  45,000/101,361  266fps  ETA 00:03:32  events=13  clips_written=13
+  [ 44.9%]  45,500/101,361  266fps  ETA 00:03:29  events=13  clips_written=13
+  [ 45.4%]  46,000/101,361  266fps  ETA 00:03:27  events=13  clips_written=13
+  [ 45.9%]  46,500/101,361  267fps  ETA 00:03:25  events=13  clips_written=13
+  [ 46.4%]  47,000/101,361  267fps  ETA 00:03:23  events=13  clips_written=13
+  [ 46.9%]  47,500/101,361  267fps  ETA 00:03:21  events=13  clips_written=13
+  [ 47.4%]  48,000/101,361  268fps  ETA 00:03:19  events=13  clips_written=13
+  [ 47.8%]  48,500/101,361  268fps  ETA 00:03:17  events=13  clips_written=13
+  [ 48.3%]  49,000/101,361  268fps  ETA 00:03:15  events=13  clips_written=13
+  [ 48.8%]  49,500/101,361  268fps  ETA 00:03:13  events=13  clips_written=13
+  [ 49.3%]  50,000/101,361  269fps  ETA 00:03:11  events=13  clips_written=13
+  [ 49.8%]  50,500/101,361  269fps  ETA 00:03:09  events=13  clips_written=13
+  [ 50.3%]  51,000/101,361  269fps  ETA 00:03:06  events=13  clips_written=13
+  [ 50.8%]  51,500/101,361  270fps  ETA 00:03:04  events=13  clips_written=13
+  [ 51.3%]  52,000/101,361  270fps  ETA 00:03:02  events=13  clips_written=13
+  [ 51.8%]  52,500/101,361  270fps  ETA 00:03:00  events=13  clips_written=13
+  [ 52.3%]  53,000/101,361  270fps  ETA 00:02:58  events=13  clips_written=13
+  [ 52.8%]  53,500/101,361  269fps  ETA 00:02:57  events=13  clips_written=13
+
+  ★ EVENT #14 at 00:37:21  ←  truck #86
+    → event ended at 00:37:28
+    → clip saved:  event_014__00h37m21s__truck.mp4  (0.6 MB)
+  [ 53.3%]  54,000/101,361  267fps  ETA 00:02:57  events=14  clips_written=14
+  [ 53.8%]  54,500/101,361  266fps  ETA 00:02:56  events=14  clips_written=14
+
+  ★ EVENT #15 at 00:37:56  ←  car #93
+    → event ended at 00:38:02
+    → clip saved:  event_015__00h37m56s__car.mp4  (0.5 MB)
+  [ 54.3%]  55,000/101,361  264fps  ETA 00:02:55  events=15  clips_written=15
+  [ 54.8%]  55,500/101,361  263fps  ETA 00:02:54  events=15  clips_written=15
+  [ 55.2%]  56,000/101,361  262fps  ETA 00:02:52  events=15  clips_written=15
+  [ 55.7%]  56,500/101,361  262fps  ETA 00:02:51  events=15  clips_written=15
+
+  ★ EVENT #16 at 00:39:15  ←  bus #97, car #98, person #99
+    → event ended at 00:39:23
+    → clip saved:  event_016__00h39m15s__bus_car_person.mp4  (0.8 MB)
+  [ 56.2%]  57,000/101,361  259fps  ETA 00:02:51  events=16  clips_written=16
+  [ 56.7%]  57,500/101,361  258fps  ETA 00:02:49  events=16  clips_written=16
+
+  ★ EVENT #17 at 00:40:15  ←  bus #131
+  [ 57.2%]  58,000/101,361  256fps  ETA 00:02:49  events=17  clips_written=17
+    → event ended at 00:40:22
+    → clip saved:  event_017__00h40m15s__bus.mp4  (0.6 MB)
+  [ 57.7%]  58,500/101,361  255fps  ETA 00:02:48  events=17  clips_written=17
+  [ 58.2%]  59,000/101,361  254fps  ETA 00:02:46  events=17  clips_written=17
+  [ 58.7%]  59,500/101,361  254fps  ETA 00:02:44  events=17  clips_written=17
+
+  ★ EVENT #18 at 00:41:22  ←  person #142, car #143
+    → event ended at 00:41:28
+    → clip saved:  event_018__00h41m22s__person_car.mp4  (0.7 MB)
+  [ 59.2%]  60,000/101,361  252fps  ETA 00:02:43  events=18  clips_written=18
+  [ 59.7%]  60,500/101,361  252fps  ETA 00:02:42  events=18  clips_written=18
+  [ 60.2%]  61,000/101,361  252fps  ETA 00:02:40  events=18  clips_written=18
+
+  ★ EVENT #19 at 00:42:25  ←  cow #154
+    → event ended at 00:42:33
+    → clip saved:  event_019__00h42m25s__cow.mp4  (0.6 MB)
+  [ 60.7%]  61,500/101,361  249fps  ETA 00:02:39  events=19  clips_written=19
+  [ 61.2%]  62,000/101,361  249fps  ETA 00:02:37  events=19  clips_written=19
+  [ 61.7%]  62,500/101,361  249fps  ETA 00:02:36  events=19  clips_written=19
+  [ 62.2%]  63,000/101,361  249fps  ETA 00:02:34  events=19  clips_written=19
+  [ 62.6%]  63,500/101,361  249fps  ETA 00:02:32  events=19  clips_written=19
+  [ 63.1%]  64,000/101,361  248fps  ETA 00:02:30  events=19  clips_written=19
+
+  ★ EVENT #20 at 00:44:41  ←  person #164
+  [ 63.6%]  64,500/101,361  247fps  ETA 00:02:28  events=20  clips_written=20
+    → event ended at 00:44:48
+    → clip saved:  event_020__00h44m41s__person.mp4  (0.6 MB)
+  [ 64.1%]  65,000/101,361  247fps  ETA 00:02:27  events=20  clips_written=20
+
+  ★ EVENT #21 at 00:45:16  ←  person #174
+    → event ended at 00:45:21
+    → clip saved:  event_021__00h45m16s__person.mp4  (0.4 MB)
+  [ 64.6%]  65,500/101,361  246fps  ETA 00:02:26  events=21  clips_written=21
+  [ 65.1%]  66,000/101,361  245fps  ETA 00:02:24  events=21  clips_written=21
+  [ 65.6%]  66,500/101,361  245fps  ETA 00:02:22  events=21  clips_written=21
+  [ 66.1%]  67,000/101,361  245fps  ETA 00:02:20  events=21  clips_written=21
+  [ 66.6%]  67,500/101,361  245fps  ETA 00:02:18  events=21  clips_written=21
+
+  ★ EVENT #22 at 00:47:12  ←  bus #177
+  [ 67.1%]  68,000/101,361  244fps  ETA 00:02:16  events=22  clips_written=22
+    → event ended at 00:47:18
+    → clip saved:  event_022__00h47m12s__bus.mp4  (0.4 MB)
+  [ 67.6%]  68,500/101,361  244fps  ETA 00:02:14  events=22  clips_written=22
+  [ 68.1%]  69,000/101,361  244fps  ETA 00:02:12  events=22  clips_written=22
+  [ 68.6%]  69,500/101,361  243fps  ETA 00:02:10  events=22  clips_written=22
+
+  ★ EVENT #23 at 00:48:18  ←  car #182
+    → event ended at 00:48:23
+    → clip saved:  event_023__00h48m18s__car.mp4  (0.3 MB)
+  [ 69.1%]  70,000/101,361  243fps  ETA 00:02:09  events=23  clips_written=23
+  [ 69.6%]  70,500/101,361  243fps  ETA 00:02:07  events=23  clips_written=23
+  [ 70.0%]  71,000/101,361  243fps  ETA 00:02:05  events=23  clips_written=23
+  [ 70.5%]  71,500/101,361  243fps  ETA 00:02:02  events=23  clips_written=23
+  [ 71.0%]  72,000/101,361  243fps  ETA 00:02:00  events=23  clips_written=23
+  [ 71.5%]  72,500/101,361  243fps  ETA 00:01:58  events=23  clips_written=23
+
+  ★ EVENT #24 at 00:50:30  ←  car #188
+    → event ended at 00:50:36
+    → clip saved:  event_024__00h50m30s__car.mp4  (0.5 MB)
+  [ 72.0%]  73,000/101,361  242fps  ETA 00:01:57  events=24  clips_written=24
+  [ 72.5%]  73,500/101,361  242fps  ETA 00:01:55  events=24  clips_written=24
+  [ 73.0%]  74,000/101,361  242fps  ETA 00:01:53  events=24  clips_written=24
+  [ 73.5%]  74,500/101,361  241fps  ETA 00:01:51  events=24  clips_written=24
+  [ 74.0%]  75,000/101,361  242fps  ETA 00:01:49  events=24  clips_written=24
+  [ 74.5%]  75,500/101,361  242fps  ETA 00:01:47  events=24  clips_written=24
+  [ 75.0%]  76,000/101,361  242fps  ETA 00:01:45  events=24  clips_written=24
+
+  ★ EVENT #25 at 00:52:47  ←  car #192
+    → event ended at 00:52:52
+    → clip saved:  event_025__00h52m47s__car.mp4  (0.4 MB)
+  [ 75.5%]  76,500/101,361  240fps  ETA 00:01:43  events=25  clips_written=25
+  [ 76.0%]  77,000/101,361  240fps  ETA 00:01:41  events=25  clips_written=25
+  [ 76.5%]  77,500/101,361  240fps  ETA 00:01:39  events=25  clips_written=25
+  [ 77.0%]  78,000/101,361  240fps  ETA 00:01:37  events=25  clips_written=25
+
+  ★ EVENT #26 at 00:54:12  ←  motorcycle #221
+    → event ended at 00:54:19
+    → clip saved:  event_026__00h54m12s__motorcycle.mp4  (0.5 MB)
+  [ 77.4%]  78,500/101,361  238fps  ETA 00:01:36  events=26  clips_written=26
+  [ 77.9%]  79,000/101,361  238fps  ETA 00:01:33  events=26  clips_written=26
+  [ 78.4%]  79,500/101,361  238fps  ETA 00:01:31  events=26  clips_written=26
+
+  ★ EVENT #27 at 00:55:21  ←  car #230, truck #231
+    → event ended at 00:55:26
+    → clip saved:  event_027__00h55m21s__car_truck.mp4  (0.3 MB)
+  [ 78.9%]  80,000/101,361  237fps  ETA 00:01:30  events=27  clips_written=27
+  [ 79.4%]  80,500/101,361  237fps  ETA 00:01:27  events=27  clips_written=27
+
+  ★ EVENT #28 at 00:56:11  ←  motorcycle #232
+  [ 79.9%]  81,000/101,361  236fps  ETA 00:01:26  events=28  clips_written=28
+    → event ended at 00:56:26
+    → clip saved:  event_028__00h56m11s__motorcycle.mp4  (0.8 MB)
+  [ 80.4%]  81,500/101,361  235fps  ETA 00:01:24  events=28  clips_written=28
+  [ 80.9%]  82,000/101,361  236fps  ETA 00:01:22  events=28  clips_written=28
+
+  ★ EVENT #29 at 00:57:03  ←  car #250
+    → event ended at 00:57:09
+    → clip saved:  event_029__00h57m03s__car.mp4  (0.4 MB)
+  [ 81.4%]  82,500/101,361  235fps  ETA 00:01:20  events=29  clips_written=29
+
+  ★ EVENT #30 at 00:57:38  ←  car #260
+  [ 81.9%]  83,000/101,361  236fps  ETA 00:01:17  events=30  clips_written=30
+    → event ended at 00:57:44
+    → clip saved:  event_030__00h57m38s__car.mp4  (0.4 MB)
+  [ 82.4%]  83,500/101,361  235fps  ETA 00:01:15  events=30  clips_written=30
+  [ 82.9%]  84,000/101,361  236fps  ETA 00:01:13  events=30  clips_written=30
+  [ 83.4%]  84,500/101,361  236fps  ETA 00:01:11  events=30  clips_written=30
+  [ 83.9%]  85,000/101,361  237fps  ETA 00:01:09  events=30  clips_written=30
+  [ 84.4%]  85,500/101,361  237fps  ETA 00:01:06  events=30  clips_written=30
+
+  ★ EVENT #31 at 00:59:26  ←  car #266, person #268
+    → event ended at 00:59:33
+    → clip saved:  event_031__00h59m26s__car_person.mp4  (0.4 MB)
+  [ 84.8%]  86,000/101,361  236fps  ETA 00:01:05  events=31  clips_written=31
+  [ 85.3%]  86,500/101,361  236fps  ETA 00:01:02  events=31  clips_written=31
+  [ 85.8%]  87,000/101,361  236fps  ETA 00:01:00  events=31  clips_written=31
+  [ 86.3%]  87,500/101,361  236fps  ETA 00:00:58  events=31  clips_written=31
+
+  ★ EVENT #32 at 01:00:53  ←  car #281, car #282
+    → event ended at 01:00:59
+    → clip saved:  event_032__01h00m53s__car.mp4  (0.4 MB)
+  [ 86.8%]  88,000/101,361  235fps  ETA 00:00:56  events=32  clips_written=32
+
+  ★ EVENT #33 at 01:01:25  ←  person #292
+  [ 87.3%]  88,500/101,361  235fps  ETA 00:00:54  events=33  clips_written=33
+    → event ended at 01:01:31
+    → clip saved:  event_033__01h01m25s__person.mp4  (0.4 MB)
+  [ 87.8%]  89,000/101,361  234fps  ETA 00:00:52  events=33  clips_written=33
+  [ 88.3%]  89,500/101,361  234fps  ETA 00:00:50  events=33  clips_written=33
+
+  ★ EVENT #34 at 01:02:22  ←  car #307
+  [ 88.8%]  90,000/101,361  233fps  ETA 00:00:48  events=34  clips_written=34
+    → event ended at 01:02:37
+    → clip saved:  event_034__01h02m22s__car.mp4  (0.7 MB)
+  [ 89.3%]  90,500/101,361  232fps  ETA 00:00:46  events=34  clips_written=34
+  [ 89.8%]  91,000/101,361  231fps  ETA 00:00:44  events=34  clips_written=34
+
+  ★ EVENT #35 at 01:03:23  ←  car #341
+    → event ended at 01:03:28
+    → clip saved:  event_035__01h03m23s__car.mp4  (0.3 MB)
+  [ 90.3%]  91,500/101,361  231fps  ETA 00:00:42  events=35  clips_written=35
+  [ 90.8%]  92,000/101,361  231fps  ETA 00:00:40  events=35  clips_written=35
+  [ 91.3%]  92,500/101,361  231fps  ETA 00:00:38  events=35  clips_written=35
+  [ 91.8%]  93,000/101,361  231fps  ETA 00:00:36  events=35  clips_written=35
+  [ 92.2%]  93,500/101,361  231fps  ETA 00:00:34  events=35  clips_written=35
+
+  ★ EVENT #36 at 01:05:03  ←  car #346
+    → event ended at 01:05:08
+    → clip saved:  event_036__01h05m03s__car.mp4  (0.4 MB)
+  [ 92.7%]  94,000/101,361  230fps  ETA 00:00:31  events=36  clips_written=36
+
+  ★ EVENT #37 at 01:05:30  ←  car #362
+    → event ended at 01:05:37
+    → clip saved:  event_037__01h05m30s__car.mp4  (0.5 MB)
+  [ 93.2%]  94,500/101,361  229fps  ETA 00:00:29  events=37  clips_written=37
+  [ 93.7%]  95,000/101,361  228fps  ETA 00:00:27  events=37  clips_written=37
+  [ 94.2%]  95,500/101,361  228fps  ETA 00:00:25  events=37  clips_written=37
+  [ 94.7%]  96,000/101,361  228fps  ETA 00:00:23  events=37  clips_written=37
+
+  ★ EVENT #38 at 01:06:55  ←  car #384
+  [ 95.2%]  96,500/101,361  228fps  ETA 00:00:21  events=38  clips_written=38
+    → event ended at 01:07:01
+    → clip saved:  event_038__01h06m55s__car.mp4  (0.3 MB)
+  [ 95.7%]  97,000/101,361  228fps  ETA 00:00:19  events=38  clips_written=38
+  [ 96.2%]  97,500/101,361  228fps  ETA 00:00:16  events=38  clips_written=38
+  [ 96.7%]  98,000/101,361  228fps  ETA 00:00:14  events=38  clips_written=38
+  [ 97.2%]  98,500/101,361  228fps  ETA 00:00:12  events=38  clips_written=38
+  [ 97.7%]  99,000/101,361  228fps  ETA 00:00:10  events=38  clips_written=38
+
+  ★ EVENT #39 at 01:08:46  ←  car #388, truck #389
+    → event ended at 01:08:53
+    → clip saved:  event_039__01h08m46s__car_truck.mp4  (0.4 MB)
+  [ 98.2%]  99,500/101,361  228fps  ETA 00:00:08  events=39  clips_written=39
+  [ 98.7%]  100,000/101,361  228fps  ETA 00:00:05  events=39  clips_written=39
+  [ 99.2%]  100,500/101,361  227fps  ETA 00:00:03  events=39  clips_written=39
+  [ 99.6%]  101,000/101,361  227fps  ETA 00:00:01  events=39  clips_written=39
+
+══════════════════════════════════════════════════════════════
+  Completed in       : 00:07:25
+  Frames processed   : 101,361
+  YOLO calls made    : 1,542  (1.5% of frames)
+  Key events found   : 39
+  Total frames saved : 9,810
+  Output folder      : event_clips/
+  Event log          : event_clips\event_log.txt
+══════════════════════════════════════════════════════════════
+
+  ── Event Timeline ──
+    EVENT #001  00:01:26  bus #1, truck #2
+    EVENT #002  00:04:42  car #5, car #6
+    EVENT #003  00:08:42  person #9, person #10
+    EVENT #004  00:12:56  bus #11, car #12, person #13, person #14
+    EVENT #005  00:16:30  car #21
+    EVENT #006  00:17:36  bus #27, person #28, person #29
+    EVENT #007  00:19:10  person #34, person #35, person #36
+    EVENT #008  00:19:54  person #44, person #45
+    EVENT #009  00:21:07  person #52
+    EVENT #010  00:21:56  car #56
+    EVENT #011  00:22:28  car #58, car #59, person #60, truck #62
+    EVENT #012  00:23:36  car #65
+    EVENT #013  00:30:02  person #81, horse #82, person #83
+    EVENT #014  00:37:21  truck #86
+    EVENT #015  00:37:56  car #93
+    EVENT #016  00:39:15  bus #97, car #98, person #99
+    EVENT #017  00:40:15  bus #131
+    EVENT #018  00:41:22  person #142, car #143
+    EVENT #019  00:42:25  cow #154
+    EVENT #020  00:44:41  person #164
+    EVENT #021  00:45:16  person #174
+    EVENT #022  00:47:12  bus #177
+    EVENT #023  00:48:18  car #182
+    EVENT #024  00:50:30  car #188
+    EVENT #025  00:52:47  car #192
+    EVENT #026  00:54:12  motorcycle #221
+    EVENT #027  00:55:21  car #230, truck #231
+    EVENT #028  00:56:11  motorcycle #232
+    EVENT #029  00:57:03  car #250
+    EVENT #030  00:57:38  car #260
+    EVENT #031  00:59:26  car #266, person #268
+    EVENT #032  01:00:53  car #281, car #282
+    EVENT #033  01:01:25  person #292
+    EVENT #034  01:02:22  car #307
+    EVENT #035  01:03:23  car #341
+    EVENT #036  01:05:03  car #346
+    EVENT #037  01:05:30  car #362
+    EVENT #038  01:06:55  car #384
+    EVENT #039  01:08:46  car #388, truck #389
+

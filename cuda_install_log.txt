@@ -1,0 +1,19 @@
+Looking in indexes: https://download.pytorch.org/whl/cu124
+Collecting torch
+  Using cached https://download.pytorch.org/whl/cu124/torch-2.6.0%2Bcu124-cp313-cp313-win_amd64.whl.metadata (28 kB)
+Collecting torchvision
+  Using cached https://download.pytorch.org/whl/cu124/torchvision-0.21.0%2Bcu124-cp313-cp313-win_amd64.whl.metadata (6.3 kB)
+Requirement already satisfied: filelock in .\venv\Lib\site-packages (from torch) (3.20.0)
+Requirement already satisfied: typing-extensions>=4.10.0 in .\venv\Lib\site-packages (from torch) (4.15.0)
+Requirement already satisfied: networkx in .\venv\Lib\site-packages (from torch) (3.6.1)
+Requirement already satisfied: jinja2 in .\venv\Lib\site-packages (from torch) (3.1.6)
+Requirement already satisfied: fsspec in .\venv\Lib\site-packages (from torch) (2025.12.0)
+Requirement already satisfied: setuptools in .\venv\Lib\site-packages (from torch) (82.0.0)
+Collecting sympy==1.13.1 (from torch)
+  Using cached sympy-1.13.1-py3-none-any.whl.metadata (12 kB)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in .\venv\Lib\site-packages (from sympy==1.13.1->torch) (1.3.0)
+Requirement already satisfied: numpy in .\venv\Lib\site-packages (from torchvision) (2.4.2)
+Requirement already satisfied: pillow!=8.3.*,>=5.3.0 in .\venv\Lib\site-packages (from torchvision) (12.0.0)
+Requirement already satisfied: MarkupSafe>=2.0 in .\venv\Lib\site-packages (from jinja2->torch) (3.0.2)
+Downloading https://download.pytorch.org/whl/cu124/torch-2.6.0%2Bcu124-cp313-cp313-win_amd64.whl (2532.3 MB)
+   ---                                      0.2/2.5 GB 942.8 kB/s eta 0:41:19

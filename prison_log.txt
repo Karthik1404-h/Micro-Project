@@ -1,0 +1,200 @@
+
+──────────────────────────────────────────────────────────────
+  Input       : cctv_prison.mp4
+  Clips saved : prison_clips/
+  Video       : 352×240  4.0fps  01:00:25
+  Pre/Post    : 4s / 5s    Max clip: 40s    Gap: 20s
+  Motion thr  : 5000 → scaled to 1833 for 352×240
+──────────────────────────────────────────────────────────────
+
+[Stage-2] Loading YOLOv8 model …
+[Stage-2] Model ready on cuda
+
+[Stage-3] Weights not found → activity_model_weights.pth
+[Stage-3] Falling back to heuristic event trigger
+[Stage-3] Train on UCF-Crime to enable full activity analysis
+
+
+  ★ EVENT #1 at 00:00:03  ←  person #1
+    → event ended at 00:00:17
+    → clip saved:  event_001__00h00m03s__person.mp4  (0.1 MB)
+
+  ★ EVENT #2 at 00:00:50  ←  person #6
+    → event ended at 00:00:55
+    → clip saved:  event_002__00h00m50s__person.mp4  (0.0 MB)
+
+  ★ EVENT #3 at 00:01:26  ←  person #10
+    → event ended at 00:01:32
+    → clip saved:  event_003__00h01m26s__person.mp4  (0.0 MB)
+  [  3.4%]  500/14,500  86fps  ETA 00:02:43  events=3  clips_written=3
+  [  6.9%]  1,000/14,500  157fps  ETA 00:01:26  events=3  clips_written=3
+  [ 10.3%]  1,500/14,500  219fps  ETA 00:00:59  events=3  clips_written=3
+  [ 13.8%]  2,000/14,500  274fps  ETA 00:00:45  events=3  clips_written=3
+
+  ★ EVENT #4 at 00:08:59  ←  person #14
+    → event ended at 00:09:05
+    → clip saved:  event_004__00h08m59s__person.mp4  (0.0 MB)
+  [ 17.2%]  2,500/14,500  304fps  ETA 00:00:39  events=4  clips_written=4
+  [ 20.7%]  3,000/14,500  345fps  ETA 00:00:33  events=4  clips_written=4
+  [ 24.1%]  3,500/14,500  382fps  ETA 00:00:28  events=4  clips_written=4
+
+  ★ EVENT #5 at 00:16:39  ←  person #15
+  [ 27.6%]  4,000/14,500  413fps  ETA 00:00:25  events=5  clips_written=5
+    → event ended at 00:16:45
+    → clip saved:  event_005__00h16m39s__person.mp4  (0.0 MB)
+
+  ★ EVENT #6 at 00:17:06  ←  person #33
+    → event ended at 00:17:44
+    → clip saved:  event_006__00h17m06s__person.mp4  (0.2 MB)
+  [ 31.0%]  4,500/14,500  345fps  ETA 00:00:28  events=6  clips_written=6
+
+  ★ EVENT #7 at 00:20:31  ←  person #50
+    → event ended at 00:20:37
+    → clip saved:  event_007__00h20m31s__person.mp4  (0.0 MB)
+  [ 34.5%]  5,000/14,500  359fps  ETA 00:00:26  events=7  clips_written=7
+  [ 37.9%]  5,500/14,500  382fps  ETA 00:00:23  events=7  clips_written=7
+
+  ★ EVENT #8 at 00:23:02  ←  person #51
+    → event ended at 00:23:41
+    → clip saved:  event_008__00h23m02s__person.mp4  (0.2 MB)
+
+  ★ EVENT #9 at 00:24:12  ←  person #57
+    → event capped at 00:24:52
+    → clip saved:  event_009__00h24m12s__person.mp4  (0.3 MB)
+  [ 41.4%]  6,000/14,500  318fps  ETA 00:00:26  events=9  clips_written=9
+
+  ★ EVENT #10 at 00:25:30  ←  person #75
+    → event capped at 00:26:10
+    → clip saved:  event_010__00h25m30s__person.mp4  (0.2 MB)
+  [ 44.8%]  6,500/14,500  289fps  ETA 00:00:27  events=10  clips_written=10
+
+  ★ EVENT #11 at 00:27:19  ←  person #81
+    → event ended at 00:27:48
+    → clip saved:  event_011__00h27m19s__person.mp4  (0.2 MB)
+
+  ★ EVENT #12 at 00:29:09  ←  person #89
+  [ 48.3%]  7,000/14,500  279fps  ETA 00:00:26  events=12  clips_written=12
+    → event ended at 00:29:26
+    → clip saved:  event_012__00h29m09s__person.mp4  (0.1 MB)
+
+  ★ EVENT #13 at 00:30:33  ←  person #98
+    → event capped at 00:31:13
+    → clip saved:  event_013__00h30m33s__person.mp4  (0.2 MB)
+  [ 51.7%]  7,500/14,500  264fps  ETA 00:00:26  events=13  clips_written=13
+
+  ★ EVENT #14 at 00:31:37  ←  person #129
+    → event capped at 00:32:17
+    → clip saved:  event_014__00h31m37s__person.mp4  (0.3 MB)
+  [ 55.2%]  8,000/14,500  247fps  ETA 00:00:26  events=14  clips_written=14
+
+  ★ EVENT #15 at 00:33:34  ←  person #155
+    → event capped at 00:34:14
+    → clip saved:  event_015__00h33m34s__person.mp4  (0.2 MB)
+
+  ★ EVENT #16 at 00:34:45  ←  person #172
+    → event ended at 00:35:24
+    → clip saved:  event_016__00h34m45s__person.mp4  (0.2 MB)
+  [ 58.6%]  8,500/14,500  228fps  ETA 00:00:26  events=16  clips_written=16
+
+  ★ EVENT #17 at 00:36:09  ←  person #184
+    → event capped at 00:36:49
+    → clip saved:  event_017__00h36m09s__person.mp4  (0.2 MB)
+  [ 62.1%]  9,000/14,500  227fps  ETA 00:00:24  events=17  clips_written=17
+
+  ★ EVENT #18 at 00:38:58  ←  person #212
+  [ 65.5%]  9,500/14,500  228fps  ETA 00:00:21  events=18  clips_written=18
+    → event capped at 00:39:37
+    → clip saved:  event_018__00h38m58s__person.mp4  (0.3 MB)
+
+  ★ EVENT #19 at 00:39:58  ←  person #248
+    → event capped at 00:40:38
+    → clip saved:  event_019__00h39m58s__person.mp4  (0.2 MB)
+
+  ★ EVENT #20 at 00:41:17  ←  person #272
+  [ 69.0%]  10,000/14,500  218fps  ETA 00:00:20  events=20  clips_written=20
+    → event ended at 00:41:45
+    → clip saved:  event_020__00h41m17s__person.mp4  (0.1 MB)
+
+  ★ EVENT #21 at 00:42:19  ←  person #276
+    → event ended at 00:42:29
+    → clip saved:  event_021__00h42m19s__person.mp4  (0.1 MB)
+
+  ★ EVENT #22 at 00:43:08  ←  person #283
+  [ 72.4%]  10,500/14,500  216fps  ETA 00:00:18  events=22  clips_written=22
+    → event capped at 00:43:47
+    → clip saved:  event_022__00h43m08s__person.mp4  (0.2 MB)
+
+  ★ EVENT #23 at 00:45:46  ←  person #300
+  [ 75.9%]  11,000/14,500  220fps  ETA 00:00:15  events=23  clips_written=23
+    → event ended at 00:46:21
+    → clip saved:  event_023__00h45m46s__person.mp4  (0.2 MB)
+
+  ★ EVENT #24 at 00:46:43  ←  person #325
+    → event capped at 00:47:22
+    → clip saved:  event_024__00h46m43s__person.mp4  (0.3 MB)
+  [ 79.3%]  11,500/14,500  211fps  ETA 00:00:14  events=24  clips_written=24
+
+  ★ EVENT #25 at 00:48:50  ←  person #351
+    → event ended at 00:49:02
+    → clip saved:  event_025__00h48m50s__person.mp4  (0.1 MB)
+
+  ★ EVENT #26 at 00:49:46  ←  person #359
+  [ 82.8%]  12,000/14,500  212fps  ETA 00:00:11  events=26  clips_written=26
+    → event ended at 00:50:05
+    → clip saved:  event_026__00h49m46s__person.mp4  (0.2 MB)
+
+  ★ EVENT #27 at 00:50:45  ←  person #367
+    → event ended at 00:50:53
+    → clip saved:  event_027__00h50m45s__person.mp4  (0.1 MB)
+
+  ★ EVENT #28 at 00:51:19  ←  person #378
+    → event ended at 00:51:33
+    → clip saved:  event_028__00h51m19s__person.mp4  (0.1 MB)
+  [ 86.2%]  12,500/14,500  211fps  ETA 00:00:09  events=28  clips_written=28
+  [ 89.7%]  13,000/14,500  217fps  ETA 00:00:06  events=28  clips_written=28
+  [ 93.1%]  13,500/14,500  224fps  ETA 00:00:04  events=28  clips_written=28
+  [ 96.6%]  14,000/14,500  231fps  ETA 00:00:02  events=28  clips_written=28
+  [100.0%]  14,500/14,500  237fps  ETA 00:00:00  events=28  clips_written=28
+
+══════════════════════════════════════════════════════════════
+  Completed in       : 00:01:01
+  Frames processed   : 14,500
+  YOLO calls (S2)    : 4,273  (29.5% of frames)
+  Activity calls (S3): 2,800
+  Stage-3 mode       : heuristic
+  Key events found   : 28
+  Total frames saved : 3,397
+  Output folder      : prison_clips/
+  Event log          : prison_clips\event_log.txt
+══════════════════════════════════════════════════════════════
+
+  ── Event Timeline ──
+    EVENT #001  00:00:03  person #1
+    EVENT #002  00:00:50  person #6
+    EVENT #003  00:01:26  person #10
+    EVENT #004  00:08:59  person #14
+    EVENT #005  00:16:39  person #15
+    EVENT #006  00:17:06  person #33
+    EVENT #007  00:20:31  person #50
+    EVENT #008  00:23:02  person #51
+    EVENT #009  00:24:12  person #57
+    EVENT #010  00:25:30  person #75
+    EVENT #011  00:27:19  person #81
+    EVENT #012  00:29:09  person #89
+    EVENT #013  00:30:33  person #98
+    EVENT #014  00:31:37  person #129
+    EVENT #015  00:33:34  person #155
+    EVENT #016  00:34:45  person #172
+    EVENT #017  00:36:09  person #184
+    EVENT #018  00:38:58  person #212
+    EVENT #019  00:39:58  person #248
+    EVENT #020  00:41:17  person #272
+    EVENT #021  00:42:19  person #276
+    EVENT #022  00:43:08  person #283
+    EVENT #023  00:45:46  person #300
+    EVENT #024  00:46:43  person #325
+    EVENT #025  00:48:50  person #351
+    EVENT #026  00:49:46  person #359
+    EVENT #027  00:50:45  person #367
+    EVENT #028  00:51:19  person #378
+

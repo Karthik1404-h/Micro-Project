@@ -1,0 +1,328 @@
+
+────────────────────────────────────────────────────────────
+  EXPERIMENT: car+bus co-occurrence clips
+  Input  : input_video.mp4
+  Output : cooccur_clips/
+  Video  : 640×360  24.0fps  01:10:23
+────────────────────────────────────────────────────────────
+
+[INFO] Loading YOLOv8 model …
+[INFO] Model ready on cuda
+
+  [  0.5%]  500/101,361  242fps  ETA 00:06:57  events=0
+  [  1.0%]  1,000/101,361  245fps  ETA 00:06:48  events=0
+  [  1.5%]  1,500/101,361  252fps  ETA 00:06:36  events=0
+  [  2.0%]  2,000/101,361  260fps  ETA 00:06:22  events=0
+  [  2.5%]  2,500/101,361  247fps  ETA 00:06:39  events=0
+  [  3.0%]  3,000/101,361  253fps  ETA 00:06:28  events=0
+  [  3.5%]  3,500/101,361  259fps  ETA 00:06:18  events=0
+  [  3.9%]  4,000/101,361  264fps  ETA 00:06:09  events=0
+  [  4.4%]  4,500/101,361  266fps  ETA 00:06:03  events=0
+  [  4.9%]  5,000/101,361  269fps  ETA 00:05:58  events=0
+  [  5.4%]  5,500/101,361  269fps  ETA 00:05:56  events=0
+  [  5.9%]  6,000/101,361  269fps  ETA 00:05:54  events=0
+  [  6.4%]  6,500/101,361  270fps  ETA 00:05:51  events=0
+
+  ★ CAR+BUS EVENT #1 at 00:04:42
+    → event ended at 00:04:47
+    → clip saved: cooccur_001__00h04m42s__car_and_bus.mp4  (0.6 MB)
+  [  6.9%]  7,000/101,361  262fps  ETA 00:05:59  events=1
+  [  7.4%]  7,500/101,361  263fps  ETA 00:05:56  events=1
+  [  7.9%]  8,000/101,361  264fps  ETA 00:05:53  events=1
+  [  8.4%]  8,500/101,361  265fps  ETA 00:05:50  events=1
+  [  8.9%]  9,000/101,361  266fps  ETA 00:05:47  events=1
+  [  9.4%]  9,500/101,361  266fps  ETA 00:05:45  events=1
+  [  9.9%]  10,000/101,361  267fps  ETA 00:05:42  events=1
+  [ 10.4%]  10,500/101,361  267fps  ETA 00:05:39  events=1
+  [ 10.9%]  11,000/101,361  268fps  ETA 00:05:37  events=1
+  [ 11.3%]  11,500/101,361  268fps  ETA 00:05:35  events=1
+  [ 11.8%]  12,000/101,361  268fps  ETA 00:05:32  events=1
+  [ 12.3%]  12,500/101,361  269fps  ETA 00:05:30  events=1
+
+  ★ CAR+BUS EVENT #2 at 00:08:42
+    → event ended at 00:08:47
+    → clip saved: cooccur_002__00h08m42s__car_and_bus.mp4  (0.5 MB)
+  [ 12.8%]  13,000/101,361  266fps  ETA 00:05:32  events=2
+  [ 13.3%]  13,500/101,361  266fps  ETA 00:05:30  events=2
+  [ 13.8%]  14,000/101,361  266fps  ETA 00:05:28  events=2
+  [ 14.3%]  14,500/101,361  267fps  ETA 00:05:25  events=2
+  [ 14.8%]  15,000/101,361  268fps  ETA 00:05:22  events=2
+  [ 15.3%]  15,500/101,361  268fps  ETA 00:05:20  events=2
+  [ 15.8%]  16,000/101,361  269fps  ETA 00:05:17  events=2
+  [ 16.3%]  16,500/101,361  270fps  ETA 00:05:14  events=2
+  [ 16.8%]  17,000/101,361  270fps  ETA 00:05:12  events=2
+  [ 17.3%]  17,500/101,361  271fps  ETA 00:05:09  events=2
+  [ 17.8%]  18,000/101,361  271fps  ETA 00:05:07  events=2
+  [ 18.3%]  18,500/101,361  272fps  ETA 00:05:05  events=2
+
+  ★ CAR+BUS EVENT #3 at 00:12:56
+    → event ended at 00:13:02
+    → clip saved: cooccur_003__00h12m56s__car_and_bus.mp4  (0.6 MB)
+  [ 18.7%]  19,000/101,361  269fps  ETA 00:05:06  events=3
+  [ 19.2%]  19,500/101,361  269fps  ETA 00:05:04  events=3
+  [ 19.7%]  20,000/101,361  269fps  ETA 00:05:02  events=3
+  [ 20.2%]  20,500/101,361  270fps  ETA 00:04:59  events=3
+  [ 20.7%]  21,000/101,361  270fps  ETA 00:04:57  events=3
+  [ 21.2%]  21,500/101,361  270fps  ETA 00:04:55  events=3
+  [ 21.7%]  22,000/101,361  271fps  ETA 00:04:53  events=3
+  [ 22.2%]  22,500/101,361  271fps  ETA 00:04:51  events=3
+  [ 22.7%]  23,000/101,361  271fps  ETA 00:04:48  events=3
+  [ 23.2%]  23,500/101,361  272fps  ETA 00:04:46  events=3
+
+  ★ CAR+BUS EVENT #4 at 00:16:30
+    → event ended at 00:16:35
+    → clip saved: cooccur_004__00h16m30s__car_and_bus.mp4  (0.6 MB)
+  [ 23.7%]  24,000/101,361  270fps  ETA 00:04:46  events=4
+  [ 24.2%]  24,500/101,361  270fps  ETA 00:04:44  events=4
+  [ 24.7%]  25,000/101,361  271fps  ETA 00:04:42  events=4
+
+  ★ CAR+BUS EVENT #5 at 00:17:37
+  [ 25.2%]  25,500/101,361  269fps  ETA 00:04:42  events=5
+    → event ended at 00:17:43
+    → clip saved: cooccur_005__00h17m37s__car_and_bus.mp4  (0.6 MB)
+  [ 25.7%]  26,000/101,361  268fps  ETA 00:04:40  events=5
+  [ 26.1%]  26,500/101,361  268fps  ETA 00:04:38  events=5
+  [ 26.6%]  27,000/101,361  268fps  ETA 00:04:37  events=5
+  [ 27.1%]  27,500/101,361  269fps  ETA 00:04:34  events=5
+
+  ★ CAR+BUS EVENT #6 at 00:19:10
+    → event ended at 00:19:15
+    → clip saved: cooccur_006__00h19m10s__car_and_bus.mp4  (0.5 MB)
+  [ 27.6%]  28,000/101,361  267fps  ETA 00:04:34  events=6
+  [ 28.1%]  28,500/101,361  267fps  ETA 00:04:32  events=6
+  [ 28.6%]  29,000/101,361  267fps  ETA 00:04:31  events=6
+  [ 29.1%]  29,500/101,361  267fps  ETA 00:04:29  events=6
+  [ 29.6%]  30,000/101,361  267fps  ETA 00:04:26  events=6
+  [ 30.1%]  30,500/101,361  266fps  ETA 00:04:26  events=6
+  [ 30.6%]  31,000/101,361  267fps  ETA 00:04:23  events=6
+  [ 31.1%]  31,500/101,361  267fps  ETA 00:04:21  events=6
+
+  ★ CAR+BUS EVENT #7 at 00:21:56
+    → event ended at 00:22:01
+    → clip saved: cooccur_007__00h21m56s__car_and_bus.mp4  (0.4 MB)
+  [ 31.6%]  32,000/101,361  266fps  ETA 00:04:20  events=7
+  [ 32.1%]  32,500/101,361  266fps  ETA 00:04:18  events=7
+  [ 32.6%]  33,000/101,361  266fps  ETA 00:04:16  events=7
+  [ 33.1%]  33,500/101,361  267fps  ETA 00:04:14  events=7
+  [ 33.5%]  34,000/101,361  266fps  ETA 00:04:12  events=7
+  [ 34.0%]  34,500/101,361  266fps  ETA 00:04:10  events=7
+  [ 34.5%]  35,000/101,361  267fps  ETA 00:04:08  events=7
+  [ 35.0%]  35,500/101,361  267fps  ETA 00:04:06  events=7
+  [ 35.5%]  36,000/101,361  267fps  ETA 00:04:04  events=7
+  [ 36.0%]  36,500/101,361  268fps  ETA 00:04:02  events=7
+  [ 36.5%]  37,000/101,361  268fps  ETA 00:04:00  events=7
+  [ 37.0%]  37,500/101,361  268fps  ETA 00:03:58  events=7
+  [ 37.5%]  38,000/101,361  269fps  ETA 00:03:55  events=7
+  [ 38.0%]  38,500/101,361  269fps  ETA 00:03:53  events=7
+  [ 38.5%]  39,000/101,361  269fps  ETA 00:03:51  events=7
+  [ 39.0%]  39,500/101,361  269fps  ETA 00:03:49  events=7
+  [ 39.5%]  40,000/101,361  269fps  ETA 00:03:47  events=7
+  [ 40.0%]  40,500/101,361  269fps  ETA 00:03:45  events=7
+  [ 40.4%]  41,000/101,361  270fps  ETA 00:03:43  events=7
+  [ 40.9%]  41,500/101,361  270fps  ETA 00:03:41  events=7
+  [ 41.4%]  42,000/101,361  270fps  ETA 00:03:39  events=7
+  [ 41.9%]  42,500/101,361  270fps  ETA 00:03:37  events=7
+  [ 42.4%]  43,000/101,361  270fps  ETA 00:03:35  events=7
+  [ 42.9%]  43,500/101,361  270fps  ETA 00:03:33  events=7
+  [ 43.4%]  44,000/101,361  270fps  ETA 00:03:32  events=7
+  [ 43.9%]  44,500/101,361  271fps  ETA 00:03:30  events=7
+  [ 44.4%]  45,000/101,361  271fps  ETA 00:03:28  events=7
+  [ 44.9%]  45,500/101,361  271fps  ETA 00:03:26  events=7
+  [ 45.4%]  46,000/101,361  271fps  ETA 00:03:24  events=7
+  [ 45.9%]  46,500/101,361  271fps  ETA 00:03:22  events=7
+  [ 46.4%]  47,000/101,361  271fps  ETA 00:03:20  events=7
+  [ 46.9%]  47,500/101,361  271fps  ETA 00:03:18  events=7
+  [ 47.4%]  48,000/101,361  271fps  ETA 00:03:16  events=7
+  [ 47.8%]  48,500/101,361  271fps  ETA 00:03:14  events=7
+  [ 48.3%]  49,000/101,361  271fps  ETA 00:03:12  events=7
+  [ 48.8%]  49,500/101,361  272fps  ETA 00:03:10  events=7
+  [ 49.3%]  50,000/101,361  272fps  ETA 00:03:08  events=7
+  [ 49.8%]  50,500/101,361  272fps  ETA 00:03:06  events=7
+  [ 50.3%]  51,000/101,361  272fps  ETA 00:03:04  events=7
+  [ 50.8%]  51,500/101,361  273fps  ETA 00:03:02  events=7
+  [ 51.3%]  52,000/101,361  273fps  ETA 00:03:01  events=7
+  [ 51.8%]  52,500/101,361  273fps  ETA 00:02:59  events=7
+  [ 52.3%]  53,000/101,361  273fps  ETA 00:02:57  events=7
+  [ 52.8%]  53,500/101,361  273fps  ETA 00:02:55  events=7
+  [ 53.3%]  54,000/101,361  272fps  ETA 00:02:53  events=7
+  [ 53.8%]  54,500/101,361  273fps  ETA 00:02:51  events=7
+
+  ★ CAR+BUS EVENT #8 at 00:37:56
+    → event ended at 00:38:02
+    → clip saved: cooccur_008__00h37m56s__car_and_bus.mp4  (0.6 MB)
+  [ 54.3%]  55,000/101,361  272fps  ETA 00:02:50  events=8
+  [ 54.8%]  55,500/101,361  272fps  ETA 00:02:48  events=8
+  [ 55.2%]  56,000/101,361  272fps  ETA 00:02:46  events=8
+  [ 55.7%]  56,500/101,361  272fps  ETA 00:02:44  events=8
+
+  ★ CAR+BUS EVENT #9 at 00:39:15
+    → event ended at 00:39:23
+    → clip saved: cooccur_009__00h39m15s__car_and_bus.mp4  (0.8 MB)
+  [ 56.2%]  57,000/101,361  271fps  ETA 00:02:43  events=9
+  [ 56.7%]  57,500/101,361  271fps  ETA 00:02:41  events=9
+
+  ★ CAR+BUS EVENT #10 at 00:40:15
+  [ 57.2%]  58,000/101,361  270fps  ETA 00:02:40  events=10
+    → event ended at 00:40:22
+    → clip saved: cooccur_010__00h40m15s__car_and_bus.mp4  (0.6 MB)
+  [ 57.7%]  58,500/101,361  270fps  ETA 00:02:38  events=10
+  [ 58.2%]  59,000/101,361  270fps  ETA 00:02:36  events=10
+  [ 58.7%]  59,500/101,361  270fps  ETA 00:02:35  events=10
+
+  ★ CAR+BUS EVENT #11 at 00:41:22
+    → event ended at 00:41:28
+    → clip saved: cooccur_011__00h41m22s__car_and_bus.mp4  (0.6 MB)
+  [ 59.2%]  60,000/101,361  269fps  ETA 00:02:33  events=11
+  [ 59.7%]  60,500/101,361  269fps  ETA 00:02:31  events=11
+  [ 60.2%]  61,000/101,361  269fps  ETA 00:02:29  events=11
+  [ 60.7%]  61,500/101,361  269fps  ETA 00:02:28  events=11
+  [ 61.2%]  62,000/101,361  269fps  ETA 00:02:26  events=11
+  [ 61.7%]  62,500/101,361  269fps  ETA 00:02:24  events=11
+  [ 62.2%]  63,000/101,361  269fps  ETA 00:02:22  events=11
+  [ 62.6%]  63,500/101,361  269fps  ETA 00:02:20  events=11
+  [ 63.1%]  64,000/101,361  269fps  ETA 00:02:18  events=11
+  [ 63.6%]  64,500/101,361  269fps  ETA 00:02:17  events=11
+  [ 64.1%]  65,000/101,361  269fps  ETA 00:02:15  events=11
+  [ 64.6%]  65,500/101,361  269fps  ETA 00:02:13  events=11
+  [ 65.1%]  66,000/101,361  269fps  ETA 00:02:11  events=11
+  [ 65.6%]  66,500/101,361  269fps  ETA 00:02:09  events=11
+  [ 66.1%]  67,000/101,361  270fps  ETA 00:02:07  events=11
+  [ 66.6%]  67,500/101,361  270fps  ETA 00:02:05  events=11
+
+  ★ CAR+BUS EVENT #12 at 00:47:12
+  [ 67.1%]  68,000/101,361  270fps  ETA 00:02:03  events=12
+    → event ended at 00:47:18
+    → clip saved: cooccur_012__00h47m12s__car_and_bus.mp4  (0.5 MB)
+  [ 67.6%]  68,500/101,361  269fps  ETA 00:02:02  events=12
+  [ 68.1%]  69,000/101,361  268fps  ETA 00:02:00  events=12
+  [ 68.6%]  69,500/101,361  268fps  ETA 00:01:58  events=12
+  [ 69.1%]  70,000/101,361  267fps  ETA 00:01:57  events=12
+  [ 69.6%]  70,500/101,361  267fps  ETA 00:01:55  events=12
+  [ 70.0%]  71,000/101,361  267fps  ETA 00:01:53  events=12
+  [ 70.5%]  71,500/101,361  266fps  ETA 00:01:52  events=12
+  [ 71.0%]  72,000/101,361  266fps  ETA 00:01:50  events=12
+  [ 71.5%]  72,500/101,361  266fps  ETA 00:01:48  events=12
+  [ 72.0%]  73,000/101,361  265fps  ETA 00:01:47  events=12
+  [ 72.5%]  73,500/101,361  264fps  ETA 00:01:45  events=12
+  [ 73.0%]  74,000/101,361  264fps  ETA 00:01:43  events=12
+  [ 73.5%]  74,500/101,361  264fps  ETA 00:01:41  events=12
+  [ 74.0%]  75,000/101,361  263fps  ETA 00:01:40  events=12
+  [ 74.5%]  75,500/101,361  263fps  ETA 00:01:38  events=12
+  [ 75.0%]  76,000/101,361  262fps  ETA 00:01:36  events=12
+
+  ★ CAR+BUS EVENT #13 at 00:53:03
+  [ 75.5%]  76,500/101,361  261fps  ETA 00:01:35  events=13
+    → event ended at 00:53:12
+    → clip saved: cooccur_013__00h53m03s__car_and_bus.mp4  (0.6 MB)
+  [ 76.0%]  77,000/101,361  260fps  ETA 00:01:33  events=13
+  [ 76.5%]  77,500/101,361  260fps  ETA 00:01:31  events=13
+  [ 77.0%]  78,000/101,361  259fps  ETA 00:01:30  events=13
+
+  ★ CAR+BUS EVENT #14 at 00:54:14
+    → event ended at 00:54:19
+    → clip saved: cooccur_014__00h54m14s__car_and_bus.mp4  (0.4 MB)
+  [ 77.4%]  78,500/101,361  258fps  ETA 00:01:28  events=14
+  [ 77.9%]  79,000/101,361  258fps  ETA 00:01:26  events=14
+  [ 78.4%]  79,500/101,361  257fps  ETA 00:01:24  events=14
+
+  ★ CAR+BUS EVENT #15 at 00:55:21
+    → event ended at 00:55:26
+    → clip saved: cooccur_015__00h55m21s__car_and_bus.mp4  (0.3 MB)
+  [ 78.9%]  80,000/101,361  257fps  ETA 00:01:23  events=15
+  [ 79.4%]  80,500/101,361  257fps  ETA 00:01:21  events=15
+  [ 79.9%]  81,000/101,361  256fps  ETA 00:01:19  events=15
+
+  ★ CAR+BUS EVENT #16 at 00:56:19
+    → event ended at 00:56:26
+    → clip saved: cooccur_016__00h56m19s__car_and_bus.mp4  (0.5 MB)
+  [ 80.4%]  81,500/101,361  254fps  ETA 00:01:18  events=16
+  [ 80.9%]  82,000/101,361  254fps  ETA 00:01:16  events=16
+  [ 81.4%]  82,500/101,361  253fps  ETA 00:01:14  events=16
+  [ 81.9%]  83,000/101,361  253fps  ETA 00:01:12  events=16
+
+  ★ CAR+BUS EVENT #17 at 00:57:39
+    → event ended at 00:57:44
+    → clip saved: cooccur_017__00h57m39s__car_and_bus.mp4  (0.4 MB)
+  [ 82.4%]  83,500/101,361  252fps  ETA 00:01:10  events=17
+  [ 82.9%]  84,000/101,361  252fps  ETA 00:01:08  events=17
+  [ 83.4%]  84,500/101,361  252fps  ETA 00:01:06  events=17
+  [ 83.9%]  85,000/101,361  252fps  ETA 00:01:04  events=17
+  [ 84.4%]  85,500/101,361  252fps  ETA 00:01:02  events=17
+
+  ★ CAR+BUS EVENT #18 at 00:59:26
+    → event ended at 00:59:33
+    → clip saved: cooccur_018__00h59m26s__car_and_bus.mp4  (0.5 MB)
+  [ 84.8%]  86,000/101,361  251fps  ETA 00:01:01  events=18
+  [ 85.3%]  86,500/101,361  251fps  ETA 00:00:59  events=18
+  [ 85.8%]  87,000/101,361  250fps  ETA 00:00:57  events=18
+  [ 86.3%]  87,500/101,361  250fps  ETA 00:00:55  events=18
+  [ 86.8%]  88,000/101,361  249fps  ETA 00:00:53  events=18
+  [ 87.3%]  88,500/101,361  249fps  ETA 00:00:51  events=18
+  [ 87.8%]  89,000/101,361  249fps  ETA 00:00:49  events=18
+  [ 88.3%]  89,500/101,361  249fps  ETA 00:00:47  events=18
+
+  ★ CAR+BUS EVENT #19 at 01:02:22
+  [ 88.8%]  90,000/101,361  248fps  ETA 00:00:45  events=19
+    → event ended at 01:02:37
+    → clip saved: cooccur_019__01h02m22s__car_and_bus.mp4  (0.8 MB)
+  [ 89.3%]  90,500/101,361  247fps  ETA 00:00:43  events=19
+  [ 89.8%]  91,000/101,361  247fps  ETA 00:00:41  events=19
+  [ 90.3%]  91,500/101,361  247fps  ETA 00:00:39  events=19
+  [ 90.8%]  92,000/101,361  248fps  ETA 00:00:37  events=19
+  [ 91.3%]  92,500/101,361  248fps  ETA 00:00:35  events=19
+  [ 91.8%]  93,000/101,361  248fps  ETA 00:00:33  events=19
+  [ 92.2%]  93,500/101,361  249fps  ETA 00:00:31  events=19
+  [ 92.7%]  94,000/101,361  249fps  ETA 00:00:29  events=19
+
+  ★ CAR+BUS EVENT #20 at 01:05:26
+    → event ended at 01:05:37
+    → clip saved: cooccur_020__01h05m26s__car_and_bus.mp4  (0.6 MB)
+  [ 93.2%]  94,500/101,361  248fps  ETA 00:00:27  events=20
+  [ 93.7%]  95,000/101,361  247fps  ETA 00:00:25  events=20
+  [ 94.2%]  95,500/101,361  248fps  ETA 00:00:23  events=20
+  [ 94.7%]  96,000/101,361  248fps  ETA 00:00:21  events=20
+  [ 95.2%]  96,500/101,361  248fps  ETA 00:00:19  events=20
+  [ 95.7%]  97,000/101,361  248fps  ETA 00:00:17  events=20
+  [ 96.2%]  97,500/101,361  249fps  ETA 00:00:15  events=20
+  [ 96.7%]  98,000/101,361  249fps  ETA 00:00:13  events=20
+  [ 97.2%]  98,500/101,361  249fps  ETA 00:00:11  events=20
+  [ 97.7%]  99,000/101,361  250fps  ETA 00:00:09  events=20
+
+  ★ CAR+BUS EVENT #21 at 01:08:46
+    → event ended at 01:08:51
+    → clip saved: cooccur_021__01h08m46s__car_and_bus.mp4  (0.3 MB)
+  [ 98.2%]  99,500/101,361  249fps  ETA 00:00:07  events=21
+  [ 98.7%]  100,000/101,361  250fps  ETA 00:00:05  events=21
+  [ 99.2%]  100,500/101,361  250fps  ETA 00:00:03  events=21
+  [ 99.6%]  101,000/101,361  250fps  ETA 00:00:01  events=21
+
+════════════════════════════════════════════════════════════
+  Done in       : 00:06:44
+  Events found  : 21
+  YOLO calls    : 1,542 / 101,361 frames
+  Clips in      : cooccur_clips/
+════════════════════════════════════════════════════════════
+
+  ── Timeline ──
+    EVENT #001  00:04:42  car+bus co-occurrence
+    EVENT #002  00:08:42  car+bus co-occurrence
+    EVENT #003  00:12:56  car+bus co-occurrence
+    EVENT #004  00:16:30  car+bus co-occurrence
+    EVENT #005  00:17:37  car+bus co-occurrence
+    EVENT #006  00:19:10  car+bus co-occurrence
+    EVENT #007  00:21:56  car+bus co-occurrence
+    EVENT #008  00:37:56  car+bus co-occurrence
+    EVENT #009  00:39:15  car+bus co-occurrence
+    EVENT #010  00:40:15  car+bus co-occurrence
+    EVENT #011  00:41:22  car+bus co-occurrence
+    EVENT #012  00:47:12  car+bus co-occurrence
+    EVENT #013  00:53:03  car+bus co-occurrence
+    EVENT #014  00:54:14  car+bus co-occurrence
+    EVENT #015  00:55:21  car+bus co-occurrence
+    EVENT #016  00:56:19  car+bus co-occurrence
+    EVENT #017  00:57:39  car+bus co-occurrence
+    EVENT #018  00:59:26  car+bus co-occurrence
+    EVENT #019  01:02:22  car+bus co-occurrence
+    EVENT #020  01:05:26  car+bus co-occurrence
+    EVENT #021  01:08:46  car+bus co-occurrence
+
