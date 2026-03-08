@@ -1,0 +1,15 @@
+# Core CV & ML dependencies
+opencv-python>=4.8.0
+ultralytics>=8.0.0      # YOLOv8  (auto-downloads yolov8n.pt on first run)
+numpy>=1.24.0
+
+# Deep learning — Stage 2 (YOLO) + Stage 3 (CNN+LSTM activity model)
+# Install CUDA build for GPU acceleration (RTX 4050 = CUDA 12.4):
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
+# For CPU-only fallback:
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+torch>=2.0.0
+torchvision>=0.15.0      # ResNet-18 backbone for activity analysis
+
+# Video encoding — Stage 4 (FFmpeg H.265/H.264 re-encode)
+imageio[ffmpeg]

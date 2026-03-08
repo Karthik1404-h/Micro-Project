@@ -1,0 +1,45 @@
+# ── Python ────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# ── Virtual environments ───────────────────────────────────────────────
+venv/
+.venv/
+env/
+.env/
+
+# ── Distribution / packaging ──────────────────────────────────────────
+build/
+dist/
+*.egg-info/
+*.egg
+
+# ── Pytest / coverage ─────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── Jupyter ───────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── VS Code ───────────────────────────────────────────────────────────
+.vscode/
+
+# ── OS ────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# mp4 videos and trained model weights (.pth) are intentionally tracked
+data/input_video.mp4
+
+# ── Logs ──────────────────────────────────────────────────────────────
+logs/
+
+# ── Output ────────────────────────────────────────────────────────────
+output/
+
+
+
+data
